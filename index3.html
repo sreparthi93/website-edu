@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="pay.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Billing Address</h3>
+                    <div class="inputBox">
+                        <span>Full name:</span>
+                        <input type="text" placeholder="enter name">
+                    </div>
+                    <div class="inputBox">
+                        <span>Bank Name:</span>
+                        <input type="text" placeholder="enter name">
+                    </div>
+                    <div class="inputBox">
+                        <span>Branch city:</span>
+                        <input type="text" placeholder="enter city name">
+                    </div>
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>State:</span>
+                            <input type="text" placeholder="enter state name">
+                        </div>
+                        <div class="inputBox">
+                            <span>zip code:</span>
+                            <input type="number" placeholder="enter code">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Payment</h3>
+                    <div class="inputBox">
+                        <span>Accepted card:</span>
+                        <img src="card.jpg" alt="">
+                    </div>
+                    <div class="inputBox">
+                        <span>Name on card:</span>
+                        <input type="text" placeholder="enter name">
+                    </div>
+                    <div class="inputBox">
+                        <span>card number:</span>
+                        <input type="number" placeholder="enter number">
+                    </div>
+                    <div class="inputBox">
+                        <span>Expiry Date:</span>
+                        <input type="date" placeholder="enter expiry date">
+                    </div>
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>Exp.year:</span>
+                            <input type="text" placeholder="enter exp year">
+                        </div>
+                        <div class="inputBox">
+                            <span>cvv:</span>
+                            <input type="number" placeholder="enter a number">
+                        </div>
+                    </div>
+                </div>               
+            <input type="submit" value="Proceed to cheackup" class="submit-btn" onclick="alert ('Payment Accepted And Register Succesfully!')">
+            <a href="index.html">Go to home</a>
+        </form>
+    </div>  
+</body>
+</html>
